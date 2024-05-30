@@ -168,12 +168,10 @@ export default function Home() {
               </div>
               <div className="text-lg leading-8">
                 <p>
-                  <p>
-                    "The case arrived quickly and the quality is amazing. The image on the case
-                    looks vibrant and clear. I've been using it for a few weeks now and it{' '}
-                    <span className="p-0.5 bg-slate-800 text-white">still looks brand new</span>.
-                    Highly recommend!"
-                  </p>
+                  "The case arrived quickly and the quality is amazing. The image on the case looks
+                  vibrant and clear. I've been using it for a few weeks now and it{' '}
+                  <span className="p-0.5 bg-slate-800 text-white">still looks brand new</span>.
+                  Highly recommend!"
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
@@ -227,6 +225,10 @@ export default function Home() {
             </div>
           </div>
         </MaxWidthWrapper>
+
+        <div className="pt-16">
+          <Reviews />
+        </div>
       </section>
     </div>
   );
